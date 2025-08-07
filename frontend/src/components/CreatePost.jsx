@@ -7,7 +7,7 @@ import { Plus } from "lucide-react";
 export default function CreatePost() {
   const [content, setContent] = useState("");
   const { posts, setPosts, userName } = useContext(userContext);
-  const url = "https://connectsphere-backend-xjq0.onrender.com/";
+  const url = "https://connectsphere-backend-xjq0.onrender.com";
 
   const handleSubmit = async (e) => {
     e.preventDefault();

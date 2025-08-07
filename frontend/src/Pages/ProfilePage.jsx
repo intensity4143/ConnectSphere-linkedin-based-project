@@ -10,7 +10,7 @@ export default function ProfilePage() {
   const { id } = useParams();
   const navigate = useNavigate();
   const { user, setUser, setUserPosts, userPosts, currentUser, setCurrentUser } = useContext(userContext);
-  const url = "https://connectsphere-backend-xjq0.onrender.com/";
+  const url = "https://connectsphere-backend-xjq0.onrender.com";
   
   const [loading, setLoading] = useState(true);
   const [isEditing, setIsEditing] = useState(false);
