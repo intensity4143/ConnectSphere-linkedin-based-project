@@ -9,7 +9,7 @@ import { userContext } from "../App";
 function Login() {
   const navigate = useNavigate();
   const {setUser, setCurrentUser} = useContext(userContext)
-  const url = "http://localhost:3000";
+  const url = "https://connectsphere-backend-xjq0.onrender.com/";
 
   const handleLogin = async (data) => {
     try {

@@ -8,7 +8,7 @@ import { userContext } from "../App";
 
 const SignUp = () => {
   const navigate = useNavigate();
-  const url = "http://localhost:3000";
+  const url = "https://connectsphere-backend-xjq0.onrender.com/";
 
   const {
     register,

@@ -17,7 +17,7 @@ export default function HomePage() {
     setCurrentUser,
   } = useContext(userContext);
 
-  const url = "http://localhost:3000";
+  const url = "https://connectsphere-backend-xjq0.onrender.com/";
   const navigate = useNavigate();
 
   // get user details
