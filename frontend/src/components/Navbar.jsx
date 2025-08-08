@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className="bg-blue-950 text-white lg:px-20 py-3 flex justify-between px-2.5 fixed top-0 left-0 w-[100%]">
       <div>
-        <Link to="/home" className="font-bold text-3xl cursor-pointer">
+        <Link to="/home" className="font-bold md:text-2xl lg:text-3xl text-lg cursor-pointer ">
           ConnectSphere
         </Link>
       </div>
@@ -18,14 +18,14 @@ export default function Navbar() {
           to="/home"
           className="cursor-pointer hover:bg-black rounded-md transition px-3 py-1.5"
         >
-          <House className="inline-block"/> Home
+          <House className="md:inline-block lg:inline-block hidden"/> Home
         </Link>
 
         <Link
           to={`/user/${currentUser && currentUser._id}`}
           className="cursor-pointer hover:bg-black rounded-md transition px-3 py-1.5"
         >
-          <UserPen  className="inline-block"/> Profile
+          <UserPen  className="md:inline-block lg:inline-block hidden"/> Profile
         </Link>
       </div>
     </nav>
